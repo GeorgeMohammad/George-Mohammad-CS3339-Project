@@ -1,0 +1,10 @@
+Sort acronym list
+Gather search criteria (List of acronyms such that every combination of acronyms exist such that every letter of the alphabet is paired with every letter of the alphabet in some acronym) 
+Read acronym data from a file.
+Store the acronym data in a structure.
+Process the acronym data as needed.
+Loop through the acronym data file.
+	Cycle through each acronym by checking each letter against every other letter.
+
+Process acronym data as needed
+Write accepted acronyms to a file.

@@ -1,0 +1,20 @@
+Read byte by byte while checking for \n and the search criteria characters and when you encounter \n, reset any flag variables/registers. Increment the search criteria character registers as needed.
+
+X86 can read a string from a file, so maybe having an array with all the letters needed would work better than converting the ascii values to characters.
+
+Check branch condition
+Branch
+Read Byte
+Check for \. If it's present, set a flag.
+increment the byte you're considering. ie. Increment the file pointer.
+Check for n. If it's present, set a flag.
+Check for search criteria characters.
+If the characters exist in the correct order, write the acronym to a file.
+
+-----------
+
+Input
+	read line into register
+Processing/Output
+	iterate through string and return 1 and write to file if the requirements are met.
+		
